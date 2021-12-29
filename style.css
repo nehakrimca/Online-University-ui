@@ -130,7 +130,9 @@
   height: 350px;
   width: 270px;
   margin: 15px;
+  object-fit: cover;
 }
+
 .img2,
 .img4 {
   align-self: flex-end;
