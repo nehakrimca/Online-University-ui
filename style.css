@@ -113,6 +113,68 @@
   text-align: center;
 }
 
-.container-people{
-  background-color: ;
+.container-people {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 63px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #0d203a 80%, #efb00b 20%);
+}
+.photo {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+}
+.photos {
+  height: 350px;
+  width: 270px;
+  margin: 15px;
+}
+.img2,
+.img4 {
+  align-self: flex-end;
+}
+.card-wrap {
+  display: flex;
+  /* justify-content: space-between; */
+  /* background-color: #fff; */
+}
+.card-data {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 5px;
+  padding: 10px;
+  margin: 20px;
+  height: 325px;
+  width: 250px;
+  border-radius: 20px;
+  text-align: center;
+}
+.card-data h4 {
+  color: #110f0d;
+  font-family: serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.card-data p {
+  font-style: italic;
+  color: #988976;
+  font-family: serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+.para2 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.para2 a {
+  color: #fff;
 }
